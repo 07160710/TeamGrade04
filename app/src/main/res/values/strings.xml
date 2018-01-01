@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TeamGrade04</string>
+    <string name="title">学生管理系统</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="jizhu">记住密码</string>
+</resources>
