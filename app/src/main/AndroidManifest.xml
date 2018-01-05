@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.teamgrade04">
 
+    <!-- 网络授权 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,6 +19,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AdminActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".resetpsw.ResetPasswordActivity" />
+        <activity android:name=".resetpsw.ModifyAdminPsdActivity" />
+        <activity android:name=".searchscore.ClassScoreActivity" />
+        <activity android:name=".searchscore.GradeScoreActivity" />
+        <activity android:name=".searchscore.XhScoreActivity" />
+        <activity android:name=".userMsg.UserIndexActivity" />
+        <activity android:name=".userMsg.UserScoreActivity" />
     </application>
 
 </manifest>
